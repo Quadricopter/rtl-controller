@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-#define DEFAULT_RTL_TCP_ADDRESS "127.0.0.1"
+#define DEFAULT_RTL_TCP_ADDRESS "localhost"
 #define DEFAULT_RTL_TCP_PORT          1234
 
 #define FREQUENCY_HZ_MIN          52000000
