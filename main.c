@@ -69,11 +69,10 @@ int main(int argc, char *argv[])
     rtl_set(&rtl);
 
     /*
-     * Close TCP connection and clean
+     * Clean
      */
 
-    if (rtl.address)
-        free(rtl.address);
+    rtl_release(&rtl);
 
     return EXIT_SUCCESS;
 }
