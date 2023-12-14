@@ -3,7 +3,10 @@ rtl-ctl
 Simple rtl_tcp SDR client
 
 `rtl_ctl` allows user to "set" `rtl_tcp` server central frequency.  
-Typical usage is found when using [rtlmux](https://github.com/slepp/rtlmux) and different bands over the day.
+Typical usage is found when using [rtlmux](https://github.com/slepp/rtlmux) and listening different bands over the day.
+
+Workflow
+--
 ![rtl_ctl Workflow](docs/workflow.png)
 
 Compilation
