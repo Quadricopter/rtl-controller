@@ -21,7 +21,7 @@ Usage by example
 --
 Set **401.5 MHz** central frequency and a **2.4 MHz** sampling rate ( weather-balloon bands )  
 ```
-rtl_ctl -a rtl_tcp-host-ip -p 1234 -f 401500000 -g 2400000
+rtl_ctl -a rtl_tcp-host-ip -p 1234 -f 401500000 -s 2400000
 ```
 Set **446.5 MHz** central frequency ( POCSAG )  
 ```
